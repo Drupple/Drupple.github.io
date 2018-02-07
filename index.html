@@ -9,7 +9,7 @@
     <meta name="keywords" content="Drupple, Proof of Concept, Hack " />
     <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="msapplication-TileColor" content="#663fb5">
 
     <meta name="theme-color" content="#663fb5">
@@ -72,9 +72,9 @@
       <div class="container">
       </br>
         <h1 class="display-3">Drupple</h1>
-        <h1 class="display-1">Prototyping Your Ideas </h1>
-        <h2 class="m-b-3">Let Investors  <em>experience </em>,your idea.Take the first step with the<em>best.</em></h2>
-        <a class="btn btn-secondary-outline m-b-1" href="http://tympanus.net/codrops/?p=25217" role="button"><span class="icon-sketch"></span>Get Started</a>
+        <h1 class="display-1" id="typewritting"> </h1>
+        <h2 class="m-b-3">Let Investors  <em>experience </em>,your idea. Take the first step with the<em> best.</em></h2>
+        <a class="btn btn-secondary-outline m-b-1" role="button"><span class=""></span>Get Started</a>
         <ul class="nav nav-inline social-share">
           <li class="nav-item"><a class="nav-link" href="https://twitter.com/Drupple_Tech" target="_blank"><span class="icon-twitter"></span> </a></li>
           <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/drupple/"  target="_blank"><span class="icon-facebook"></span></a></li>
@@ -103,30 +103,36 @@
           <div class="col-md-4 hoverable_drupple">
             <div class="card">
               <div class="card-block">
-                <span class="icon-pen display-1 "></span>
+                <br>
+                <span class="fa fa-html5 display-1 " style="background:rgb(85, 26, 139);color: white"></span>
                 <h5 class="card-title">Web Technologies</h5>
                 <h6 class="card-subtitle text-muted">Web Apps, Mobile Apps, and Browser Extentions</h6>
                 <p class="card-text">Gorgeous UI with Delightful UX, we deliver the best that you could ever desire. We develop breathtaking Static Websites, Web Apps, Mobile Apps and even Chrome Extentions engaging the latest technologies </p>
+                <br>
               </div>
             </div>
           </div>
           <div class="col-md-4 hoverable_drupple">
             <div class="card">
               <div class="card-block">
-                <span class="icon-thunderbolt display-1"></span>
+                <br>
+                <span class="fa fa-bitcoin display-1" style="background:rgb(85, 26, 139);color: white"></span>
                 <h4 class="card-title">Blockchain Technologies</h4>
                 <h6 class="card-subtitle text-muted">Token Creation, Pre-ICOs, ICOs and Solidity Contracts</h6>
                 <p class="card-text">Want to join the Blockchain Revolution? We are the team you have been looking for.From Token Creation to Pre ICOs and even conducting ICOs, we provide a plethora of options to help deploy your idea on the BlockChain</p>
+                <br>
               </div>
             </div>
           </div>
           <div class="col-md-4 hoverable_drupple">
             <div class="card m-b-0">
               <div class="card-block">
-                <span class="icon-heart display-1"></span>
+                <br>
+                <span class="fa fa-signal display-1" style="background:rgb(85, 26, 139);color: white"></span>
                 <h4 class="card-title">Data Science & Analytics</h4>
                 <h6 class="card-subtitle text-muted">Machine Learning , Deep Learning and Artificial Intelligence</h6>
                 <p class="card-text">In the Information Age, data is the most important resource.We will help you develop a precise use case along with a complete Web Dashboard and/or mobile app to help serve as a Proof of Concept for your next pitch</p>
+                <br>
               </div>
             </div>
           </div>
@@ -337,5 +343,23 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/landio.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+    <script type="text/javascript">
+      var app = document.getElementById('typewritting');
+
+      var typewriter = new Typewriter(app, {
+          loop: true
+      });
+
+      typewriter.typeString('Prototyping Your Ideas')
+          .pauseFor(2500)
+          .deleteAll()
+          .typeString('Just Focus on the Tech')
+          .pauseFor(1000)
+          .deleteChars(4)
+          .typeString('Investors!')
+          .pauseFor(5000)
+          .start();
+    </script>
   </body>
 </html>
