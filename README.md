@@ -1,7 +1,7 @@
 # Welcome to Drupple! 
-![GitHub Logo](https://drupple.github.io/img/logo_drupple_color.png = 100x100)
+<br/>
 Hi!<br/>
-We prototype your ideas so that you can focus on your idea and pitch more than the technology and development!
+We prototype your ideas so that you can focus on your idea and pitch more than the technology and development!<br/>
 We build prototypes/proof of concepts which helps Investors understand the business more properly. Ideas with PoC's are more likely to get Investments and funding than just the presentation pitches!
 
 >Let Investors *experience*, your idea. Take the first step with the *best*.
@@ -10,5 +10,5 @@ We build prototypes/proof of concepts which helps Investors understand the busin
 * Machine Learning & Analytics
 * Blockchain Technologies
 ## Contact Us
-Website : [www.Drupple.ml](www.drupple.ml)
+Website : [www.Drupple.ml](www.drupple.ml)<br/>
 Mail : Drupple.technology@gmail.com
