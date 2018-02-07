@@ -7,7 +7,8 @@
     <title>Drupple</title>
     <meta name="description" content="Best team to develop your PoC. Help investors visualize your idea" />
     <meta name="keywords" content="Drupple, Proof of Concept, Hack " />
-    <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
+    <meta name="author" content="Swastik Shrivastava" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
@@ -64,11 +65,14 @@
     .iq-feature7 .fancy-content { display: table-cell; }
 
     .iq-feature7 .feature-content { position: relative; }
-    .iq-feature7 .feature-content .tag { background: #f9b707; position: absolute; top: -47px; left: 30px; color: #fff; padding: 5px 15px; }
+    .iq-feature7 .feature-content .tag { background: rgb(85, 26, 139); position: absolute; top: -47px; left: 30px; color: #fff; padding: 5px 15px; }
 
     .iq-mtb-30 { margin: 30px 0; }
 
-
+    .bg_color_drupple{
+      background:rgb(85, 26, 139);
+      color: white;
+    }
     </style>
   </head>
 
@@ -109,8 +113,8 @@
       </br>
         <h1 class="display-3">Drupple</h1>
         <h1 class="display-1" id="typewritting"> </h1>
-        <h2 class="m-b-3">Let Investors  <em>experience </em>,your idea. Take the first step with the<em> best.</em></h2>
-        <a class="btn btn-secondary-outline m-b-1" role="button"><span class=""></span>Get Started</a>
+        <h2 class="m-b-3">Let Investors  <em>experience</em>, your idea. Take the first step with the<em> best.</em></h2>
+        <a class="btn btn-secondary-outline m-b-1" role="button"><span class="fa fa-chevron-down"></span>Get Started</a>
         <ul class="nav nav-inline social-share">
           <li class="nav-item"><a class="nav-link" href="https://twitter.com/Drupple_Tech" target="_blank"><span class="icon-twitter"></span> </a></li>
           <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/drupple/"  target="_blank"><span class="icon-facebook"></span></a></li>
@@ -182,8 +186,7 @@
     <section class="section-video bg-inverse text-xs-center wp wp-4">
       <h3 class="sr-only">Video</h3>
       <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
-        <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
-        <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+        <source src="img/druppleFinal.mp4" type='video/mp4'>
       </video>
     </section>
 
@@ -199,7 +202,7 @@
                         <div class="heading-title">
                             <h3 class="title iq-tw-5 iq-mb-20">We CAME | We SAW | We CONQUERED.</h3>
                             <p><h2>A few of the events where our Proof of Concept brought Laurels!</h2>
-
+                                <br>
                              </p>
                         </div>
                     </div>
@@ -210,7 +213,7 @@
                             <div class="feature-aria">
                                 <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_1.jpg"></div>
                                 <div class="feature-content iq-mtb-30">
-                                    <div class="tag center">Facebook Digital Challenge</div>
+                                    <div class="tag center bg_color_drupple">Facebook Digital Challenge</div>
                                     <h5 class="iq-font-dark iq-tw-6"><br></h5>
                                     <p>Organized by YWS! Sponsered by Facebbok, it was a pan-India event organised in Jammu. We were judged for the most innovative idea and as the most capable team to develop a working prototype on the idea we presented to counter online radicalisation, also receiving a grant of 5000$. .</p>
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" ariahidden="true"></i></a></div>
@@ -399,20 +402,26 @@
         <h3 class="text-xs-center m-b-3">Sign up to receive free updates as soon as they hit!</h3>
         <form>
           <div class="row">
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-4">
               <div class="form-group has-icon-left form-control-name">
                 <label class="sr-only" for="inputName">Your name</label>
                 <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
               </div>
             </div>
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-4">
               <div class="form-group has-icon-left form-control-email">
                 <label class="sr-only" for="inputEmail">Email address</label>
                 <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
               </div>
             </div>
+             <div class="col-md-6 col-xl-4">
+              <div class="form-group has-icon-left form-control-phone">
+                <label class="sr-only" for="inputName">Contact Number</label>
+                <input type="tel" class="form-control form-control-lg" id="inputNumberx" placeholder="Contact Number">
+              </div>
+            </div>
             <div class="col-md-6 col-xl-6">
-              <div class="form-group has-icon-left form-control-password">
+              <div class="form-group has-icon-left form-control-msg">
                 <label class="sr-only" for="inputPassword">Enter your message</label>
                 <textarea name="comment"  type="text" class="form-control form-control-lg" id="inputPassword" placeholder="Enter your message" autocomplete="off" style="height: 200px"></textarea>
               </div>
