@@ -7,7 +7,7 @@
     <title>Drupple</title>
     <meta name="description" content="Best team to develop your PoC. Help investors visualize your idea" />
     <meta name="keywords" content="Drupple, Proof of Concept, Hack " />
-    <meta name="author" content="Swastik Shrivastava" />
+    <meta name="author" content="Swastik Shrivastava & Anirudh Murali" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -92,14 +92,15 @@
       </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
           <ul class="nav navbar-nav pull-xs-right">
+
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="">Projects</a>
+              <a class="nav-link" id ="Team-nav">Team</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="#team">Team</a>
+              <a class="nav-link" id="Proj-nav" >Projects</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="#contact_drupple">Contact</a>
+              <a class="nav-link" id="Contact-Nav">Contact</a>
             </li>
             <li class="navbar-divider hidden-sm-down"></li>
       </div>
@@ -114,7 +115,7 @@
         <h1 class="display-3">Drupple</h1>
         <h1 class="display-1" id="typewritting"> </h1>
         <h2 class="m-b-3">Let Investors  <em>experience</em>, your idea. Take the first step with the<em> best.</em></h2>
-        <a class="btn btn-secondary-outline m-b-1" role="button"><span class="fa fa-chevron-down"></span>Get Started</a>
+        <a class="btn btn-secondary-outline m-b-1" id="Get_Started" ><span class="fa fa-chevron-down"></span>Get Started</a>
         <ul class="nav nav-inline social-share">
           <li class="nav-item"><a class="nav-link" href="https://twitter.com/Drupple_Tech" target="_blank"><span class="icon-twitter"></span> </a></li>
           <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/drupple/"  target="_blank"><span class="icon-facebook"></span></a></li>
@@ -137,7 +138,7 @@
     <!-- Features
     ================================================== -->
 
-    <section class="section-features text-xs-center">
+    <section  class="section-features text-xs-center">
       <div class="container">
         <div class="row ">
           <div class="col-md-4 hoverable_drupple">
@@ -183,7 +184,7 @@
     <!-- Video
     ================================================== -->
 
-    <section class="section-video bg-inverse text-xs-center wp wp-4">
+    <section id = "video" class="section-video bg-inverse text-xs-center wp wp-4">
       <h3 class="sr-only">Video</h3>
       <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
         <source src="img/druppleFinal.mp4" type='video/mp4'>
@@ -285,7 +286,7 @@
     <!-- Testimonials
     ================================================== -->
 
-    <section class="section-testimonials text-xs-center bg-inverse" id="team">
+    <section id = "team" class="section-testimonials text-xs-center bg-inverse" id="team">
       <div class="container">
         <h1 class="">The Team</h1>
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel" data-interval="0">
@@ -356,7 +357,7 @@
     <!-- Text Content
     ================================================== -->
 
-    <section class="section-text">
+    <section id="Projects" class="section-text">
       <div class="container">
         <h3 class="text-xs-center">Prototyping Your Ideas</h3>
       </div>
@@ -471,19 +472,20 @@
           <div class="col-md-6 col-lg-7">
             <ul class="nav nav-inline">
               <li class="nav-item">
-                <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="projects-footer"> Projects<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="">UI Kit</a></li>
+              <li class="nav-item"><a class="nav-link" id="team-footer">Team</a></li>
               <li class="nav-item"><a class="nav-link" href="" target="_blank">GitHub</a></li>
               <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
             </ul>
           </div>
-        </div>
+        </div
       </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/landio.min.js"></script>
+     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
     <script type="text/javascript">
       var app = document.getElementById('typewritting');
@@ -507,6 +509,8 @@
       $(document).ready(function() {
         document.title = "Drupple | Prototyping Your Ideas";
       })
+
+
     </script>
 
     <script>
