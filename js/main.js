@@ -1,6 +1,6 @@
-$("#Get-Started").click(function() {
-			$('html, body').animate({
-			scrollTop: $("#video").offset().top
+$("#Get_Started").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#video_drupple").offset().top
 		}, 1500);
 });
 $("#Contact-Nav").click(function() {

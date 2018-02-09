@@ -70,8 +70,11 @@
     .iq-mtb-30 { margin: 30px 0; }
 
     .bg_color_drupple{
-      background:rgb(85, 26, 139);
+      background:linear-gradient(45deg,rgba(220,30,157, 1),rgba(85, 26, 139, 1),rgba(85, 26, 189, 1));
       color: white;
+    }
+    .pointer_drupple{
+    	cursor: pointer;
     }
     </style>
   </head>
@@ -94,13 +97,13 @@
           <ul class="nav navbar-nav pull-xs-right">
 
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" id ="Team-nav">Team</a>
+              <a class="nav-link pointer_drupple" id ="Team-nav">Team</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" id="Proj-nav" >Projects</a>
+              <a class="nav-link pointer_drupple" id="Proj-nav" >Projects</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" id="Contact-Nav">Contact</a>
+              <a class="nav-link pointer_drupple" id="Contact-Nav">Contact</a>
             </li>
             <li class="navbar-divider hidden-sm-down"></li>
       </div>
@@ -131,7 +134,7 @@
       <div class="container">
         <h3 class="wp wp-1">Develop your ideas, the way you want it, with Drupple</h3>
         <p class="lead wp wp-2">We shall deliver a Proof of Concept to help you raise investments for your idea</p>
-        <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
+        <img src="img/mock3.png" alt="iPhone mock" class="img-fluid wp wp-3">
       </div>
     </section>
 
@@ -184,7 +187,7 @@
     <!-- Video
     ================================================== -->
 
-    <section id = "video" class="section-video bg-inverse text-xs-center wp wp-4">
+    <section id = "video_drupple" class="section-video bg-inverse text-xs-center wp wp-4">
       <h3 class="sr-only">Video</h3>
       <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
         <source src="img/druppleFinal.mp4" type='video/mp4'>
@@ -377,7 +380,7 @@
               </figure>
             </div>
             <div class="col-md-6 p-l-0">
-              <article class="center-block">
+              <article class="center-block bg_color_drupple">
                 <span class="label label-info">Token ICO</span>
                 <br>
                 <p><a href="#">Created a platform to conduct the ICO of SIP Coin along with creating the tokens and deploying it to the Ethereum Blockchain <span class="icon-arrow-right"></span></a></p>
@@ -395,7 +398,7 @@
               </figure>
             </div>
             <div class="col-md-6 col-md-pull-6 p-r-0">
-              <article class="center-block">
+              <article class="center-block bg_color_drupple">
                 <span class="label label-info">Featured article</span>
                 <br>
                 <h5><a href="#">How bold, emotive imagery can connect with your audience <span class="icon-arrow-right"></span></a></h5>
@@ -442,10 +445,16 @@
                 <textarea name="comment"  type="text" class="form-control form-control-lg" id="inputPassword" placeholder="Enter your message" autocomplete="off" style="height: 200px"></textarea>
               </div>
             </div>
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-1">
+            </div>
+            <div class="col-md-6 col-xl-4">
+            	<br class="hidden-sm-down">
+            	<br class="hidden-sm-down">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Send Email</button>
+                <button type="submit" class="btn btn-primary btn-block bg_color_drupple">Send Email &nbsp<span class="fa fa-magic"></span></button>
               </div>
+            </div>
+            <div class="col-md-6 col-xl-1">
             </div>
           </div>
         </form>
@@ -455,7 +464,7 @@
     <!-- Footer
     ================================================== -->
 
-    <footer class="section-footer bg-inverse" role="contentinfo">
+    <footer class="section-footer bg-inverse bg_color_drupple" role="contentinfo">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-5">
@@ -474,9 +483,9 @@
               <li class="nav-item">
                 <a class="nav-link" id="projects-footer"> Projects<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item"><a class="nav-link" id="team-footer">Team</a></li>
-              <li class="nav-item"><a class="nav-link" href="" target="_blank">GitHub</a></li>
-              <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link" id="team-footer">Team</a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link" href="" target="_blank">GitHub</a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
             </ul>
           </div>
         </div
