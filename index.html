@@ -7,7 +7,8 @@
     <title>Drupple</title>
     <meta name="description" content="Best team to develop your PoC. Help investors visualize your idea" />
     <meta name="keywords" content="Drupple, Proof of Concept, Hack " />
-    <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
+    <meta name="author" content="Swastik Shrivastava & Anirudh Murali" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
@@ -64,15 +65,163 @@
     .iq-feature7 .fancy-content { display: table-cell; }
 
     .iq-feature7 .feature-content { position: relative; }
-    .iq-feature7 .feature-content .tag { background: #f9b707; position: absolute; top: -47px; left: 30px; color: #fff; padding: 5px 15px; }
+    .iq-feature7 .feature-content .tag { background: rgb(85, 26, 139); position: absolute; top: -47px; left: 30px; color: #fff; padding: 5px 15px; }
 
     .iq-mtb-30 { margin: 30px 0; }
 
+    .bg_color_drupple{
+      background:linear-gradient(45deg,rgba(220,30,157, 1),rgba(85, 26, 139, 1),rgba(85, 26, 189, 1));
+      color: white;
+    }
+    .pointer_drupple{
+    	cursor: pointer;
+    }
+
+    .loader-5 {
+            display: none;
+            margin-left: 210px;
+            margin-top: -25px;
+          	height: 32px;
+          	width: 32px;
+          	-webkit-animation: loader-5-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          	        animation: loader-5-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          }
+          @-webkit-keyframes loader-5-1 {
+          	0%   { -webkit-transform: rotate(0deg); }
+          	100% { -webkit-transform: rotate(360deg); }
+          }
+          @keyframes loader-5-1 {
+          	0%   { transform: rotate(0deg); }
+          	100% { transform: rotate(360deg); }
+          }
+          .loader-5::before {
+          	content: "";
+          	display: block;
+          	position: absolute;
+          	top: 0; left: 0;
+          	bottom: 0; right: auto;
+          	margin: auto;
+          	width: 8px;
+          	height: 8px;
+          	background: #FFF;
+          	border-radius: 50%;
+          	-webkit-animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          	        animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          }
+          @-webkit-keyframes loader-5-2 {
+          	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { -webkit-transform: translate3d(24px, 0, 0) scale(.5); }
+          	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          }
+          @keyframes loader-5-2 {
+          	0%   { transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { transform: translate3d(24px, 0, 0) scale(.5); }
+          	100% { transform: translate3d(0, 0, 0) scale(1); }
+          }
+          .loader-5::after {
+          	content: "";
+          	display: block;
+          	position: absolute;
+          	top: 0; left: auto;
+          	bottom: 0; right: 0;
+          	margin: auto;
+          	width: 8px;
+          	height: 8px;
+          	background: #FFF;
+          	border-radius: 50%;
+          	-webkit-animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          	        animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          }
+          @-webkit-keyframes loader-5-3 {
+          	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { -webkit-transform: translate3d(-24px, 0, 0) scale(.5); }
+          	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          }
+          @keyframes loader-5-3 {
+          	0%   { transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { transform: translate3d(-24px, 0, 0) scale(.5); }
+          	100% { transform: translate3d(0, 0, 0) scale(1); }
+          }
+          .loader-5 span {
+          	display: block;
+          	position: absolute;
+          	top: 0; left: 0;
+          	bottom: 0; right: 0;
+          	margin: auto;
+          	height: 32px;
+          	width: 32px;
+          }
+          .loader-5 span::before {
+          	content: "";
+          	display: block;
+          	position: absolute;
+          	top: 0; left: 0;
+          	bottom: auto; right: 0;
+          	margin: auto;
+          	width: 8px;
+          	height: 8px;
+          	background: #FFF;
+          	border-radius: 50%;
+          	-webkit-animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          	        animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          }
+          @-webkit-keyframes loader-5-4 {
+          	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { -webkit-transform: translate3d(0, 24px, 0) scale(.5); }
+          	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          }
+          @keyframes loader-5-4 {
+          	0%   { transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { transform: translate3d(0, 24px, 0) scale(.5); }
+          	100% { transform: translate3d(0, 0, 0) scale(1); }
+          }
+          .loader-5 span::after {
+          	content: "";
+          	display: block;
+          	position: absolute;
+          	top: auto; left: 0;
+          	bottom: 0; right: 0;
+          	margin: auto;
+          	width: 8px;
+          	height: 8px;
+          	background: #FFF;
+          	border-radius: 50%;
+          	-webkit-animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          	        animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+          }
+          @-webkit-keyframes loader-5-5 {
+          	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { -webkit-transform: translate3d(0, -24px, 0) scale(.5); }
+          	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+          }
+          @keyframes loader-5-5 {
+          	0%   { transform: translate3d(0, 0, 0) scale(1); }
+          	50%  { transform: translate3d(0, -24px, 0) scale(.5); }
+          	100% { transform: translate3d(0, 0, 0) scale(1); }
+          }
 
     </style>
   </head>
 
   <body>
+
+    <!-- modal -->
+    <div class="modal fade" id="myModal" role="dialog" style="z-index:10000;">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header" style="color:white;background: linear-gradient(45deg,rgba(220,30,157, 1),rgba(85, 26, 139, 1),rgba(85, 26, 189, 1));">
+            <center>
+            <h4 class="modal-title">Thank you for choosing us</h4>
+            </center>
+          </div>
+          <div class="modal-body" style="color:white;background: linear-gradient(45deg,rgba(220,30,157, 1),rgba(85, 26, 139, 1),rgba(85, 26, 189, 1));">
+            <img src="img/logo_drupple.png" height="50px" width="auto" style="float:left;margin-left:20px;">
+            <p style="margin-top:12px;margin-left:140px;font-size:20px;">We will get back to you shortly</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Navigation
     ================================================== -->
@@ -88,14 +237,15 @@
       </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
           <ul class="nav navbar-nav pull-xs-right">
+
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>
+              <a class="nav-link pointer_drupple" id ="Team-nav">Team</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="ui-elements.html">UI Kit</a>
+              <a class="nav-link pointer_drupple" id="Proj-nav" >Projects</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a>
+              <a class="nav-link pointer_drupple" id="Contact-Nav">Contact</a>
             </li>
             <li class="navbar-divider hidden-sm-down"></li>
       </div>
@@ -109,8 +259,8 @@
       </br>
         <h1 class="display-3">Drupple</h1>
         <h1 class="display-1" id="typewritting"> </h1>
-        <h2 class="m-b-3">Let Investors  <em>experience </em>,your idea. Take the first step with the<em> best.</em></h2>
-        <a class="btn btn-secondary-outline m-b-1" role="button"><span class=""></span>Get Started</a>
+        <h2 class="m-b-3">Let Investors  <em>experience</em>, your idea. Take the first step with the<em> best.</em></h2>
+        <a class="btn btn-secondary-outline m-b-1" id="Get_Started" ><span class="fa fa-chevron-down"></span>Get Started</a>
         <ul class="nav nav-inline social-share">
           <li class="nav-item"><a class="nav-link" href="https://twitter.com/Drupple_Tech" target="_blank"><span class="icon-twitter"></span> </a></li>
           <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/drupple/"  target="_blank"><span class="icon-facebook"></span></a></li>
@@ -126,14 +276,14 @@
       <div class="container">
         <h3 class="wp wp-1">Develop your ideas, the way you want it, with Drupple</h3>
         <p class="lead wp wp-2">We shall deliver a Proof of Concept to help you raise investments for your idea</p>
-        <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
+        <img src="img/mock3.png" alt="iPhone mock" class="img-fluid wp wp-3">
       </div>
     </section>
 
     <!-- Features
     ================================================== -->
 
-    <section class="section-features text-xs-center">
+    <section  class="section-features text-xs-center">
       <div class="container">
         <div class="row ">
           <div class="col-md-4 hoverable_drupple">
@@ -179,11 +329,10 @@
     <!-- Video
     ================================================== -->
 
-    <section class="section-video bg-inverse text-xs-center wp wp-4">
+    <section id = "video_drupple" class="section-video bg-inverse text-xs-center wp wp-4">
       <h3 class="sr-only">Video</h3>
       <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
-        <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
-        <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+        <source src="img/druppleFinal.mp4" type='video/mp4'>
       </video>
     </section>
 
@@ -197,8 +346,10 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="heading-title">
-                            <h3 class="title iq-tw-5 iq-mb-20">Bitcoin Features</h3>
-                            <p>Here is 3 Easy Steps to Busy &amp; Sell Bitcoin. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h3 class="title iq-tw-5 iq-mb-20">We CAME | We SAW | We CONQUERED.</h3>
+                            <p><h2>A few of the events where our Proof of Concept brought Laurels!</h2>
+                                <br>
+                             </p>
                         </div>
                     </div>
                 </div>
@@ -206,60 +357,60 @@
                     <div class="owl-carousel" data-nav-dots="true" data-nav-arrow="false" data-items="3" data-sm-items="2" data-lg-items="3" data-md-items="3" data-autoplay="true">
                         <div class="item">
                             <div class="feature-aria">
-                                <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
+                                <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_1.jpg"></div>
                                 <div class="feature-content iq-mtb-30">
-                                    <div class="tag">Awesome</div>
-                                    <h5 class="iq-font-dark iq-tw-6">Safe & Secure</h5>
-                                    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scram bled it to make a type specimen book.</p>
+                                    <div class="tag center bg_color_drupple">Facebook Digital Challenge</div>
+                                    <h5 class="iq-font-dark iq-tw-6"><br></h5>
+                                    <p>Organized by YWS! Sponsered by Facebbok, it was a pan-India event organised in Jammu. We were judged for the most innovative idea and as the most capable team to develop a working prototype on the idea we presented to counter online radicalisation, also receiving a grant of 5000$. .</p>
+                                    <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" ariahidden="true"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="feature-aria">
+                                <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_2.jpg"></div>
+                                <div class="feature-content iq-mtb-30">
+                                    <div class="tag center">Nasscom TechNgage</div>
+                                    <h5 class="iq-font-dark iq-tw-6"><br></h5>
+                                    <p>Organised by NASSCOM in Kolkata, the competition saw 80,000 participants from across the country.Our team developed an electrical drive that could be attached to EB meters, which analyses the pattern of the consumers. We judged best and were awarded with 2L cash prize.</p>
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="feature-aria">
-                                <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
-                                <div class="feature-content iq-mtb-30">
-                                    <div class="tag">Creative</div>
-                                    <h5 class="iq-font-dark iq-tw-6">Mobile Apps</h5>
-                                    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scram bled it to make a type specimen book.</p>
+                                <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_3.jpg"></div>
+                                <div class="feature-content iq-mtb-30 center">
+                                    <div class="tag center">Digital Pune Hackathon</div>
+                                    <h5 class="iq-font-dark iq-tw-6"><br></h5>
+                                    <p>Organised by PERSISTANTS System Ltd. in Pune,saw over 300 participants, with student from over 70 colleges across the country. Our team came up with Smart Water Distribution and Leakage Detection System and was adjudged and recognised as a promising idea that could potentially solve Pune’s water and sanitation challenges.</p>
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="feature-aria">
-                                <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
+                                <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_4.jpg"></div>
                                 <div class="feature-content iq-mtb-30">
-                                    <div class="tag">Outstanding</div>
-                                    <h5 class="iq-font-dark iq-tw-6">Wallet</h5>
-                                    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scram bled it to make a type specimen book.</p>
+                                    <div class="tag">Govt. of Gujrat Hackathon</div>
+                                    <h5 class="iq-font-dark iq-tw-6"><br></h5>
+                                    <p>Organised by the Govt. of Gujrat in Rajkot, it was innaugrated by our Prime Minister and saw a very huge participations from all over the country. Our team was appreciated for developing the most simple yet effective web-mobile application for Aanganwadi Workers. </p>
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="feature-aria">
-                                <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
+                                <div class="feature-img"><img alt="" class="img-fluid" src="img/laurel_5.jpg"></div>
                                 <div class="feature-content iq-mtb-30">
-                                    <div class="tag">Awesome</div>
-                                    <h5 class="iq-font-dark iq-tw-6">Recuring Buys</h5>
-                                    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scram bled it to make a type specimen book.</p>
+                                    <div class="tag">ATOS IT Challenge</div>
+                                    <h5 class="iq-font-dark iq-tw-6"><br></h5>
+                                    <p>Represented India in World IT Challenge, 2016 by ATOS. An annual worldwide competition on new technologies and development. This year’s theme was“The Right to be Forgotten”. Our team was ranked 10th in the World.</p>
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="feature-aria">
-                                <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
-                                <div class="feature-content iq-mtb-30">
-                                    <div class="tag">Creative</div>
-                                    <h5 class="iq-font-dark iq-tw-6">Instant Exchange</h5>
-                                    <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scram bled it to make a type specimen book.</p>
-                                    <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="feature-aria">
                                 <div class="feature-img"><img alt="" class="img-fluid" src="http://via.placeholder.com/370x240"></div>
                                 <div class="feature-content iq-mtb-30">
@@ -269,7 +420,7 @@
                                     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -280,45 +431,60 @@
     <!-- Testimonials
     ================================================== -->
 
-    <section class="section-testimonials text-xs-center bg-inverse">
+    <section id = "team" class="section-testimonials text-xs-center bg-inverse" id="team">
       <div class="container">
-        <h3 class="sr-only">Testimonials</h3>
+        <h1 class="">The Team</h1>
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <blockquote class="blockquote">
                 <img src="img/swaroski.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                <p class="h3"></p>
-                <footer>Swastik Shrivastava</br>Full stack developer and Blockchain Developer</footer>
+                <p class="h3">Working on new ideas and helping dreams take shape is my passion. With Drupple I hope to make your dream come true</p>
+                <footer>Swastik Shrivastava</br>Full Stack Developer & Blockchain Developer</footer>
+                <br>
+                <a href="https://github.com/SwastikShrivastava/" target="_blank"><span class="fa fa-github fa-2x"></span></a> &nbsp&nbsp|&nbsp&nbsp
+                <a href="https://www.linkedin.com/in/swastik-shrivastava-cse/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
               </blockquote>
             </div>
             <div class="carousel-item">
               <blockquote class="blockquote">
                 <img src="img/murali.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                <p class="h3">It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the eye, no program will give it to you.</p>
-                <footer>Anirudh Murali </br> Data Scientist and Blockchain Developer</footer>
-
+                <p class="h3">Data may be more precious than gold. However without the right person working on it, data is worthless.</p>
+                <footer>Anirudh Murali </br> Data Scientist & Blockchain Developer</footer>
+                <br>
+                <a href="https://github.com/Anirudh-Murali" target="_blank"><span class="fa fa-github fa-2x"></span></a>&nbsp&nbsp|&nbsp&nbsp
+                <a href="https://www.linkedin.com/in/anirudh-murali/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
               </blockquote>
             </div>
             <div class="carousel-item">
               <blockquote class="blockquote">
                 <img src="img/rajjo.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                <p class="h3">There’s a point when you’re done simplifying. Otherwise, things get really complicated.</p>
+                <p class="h3">If people cannot easily connect with technology, the entire purpose is lost. Helping bridge that gap is what I do best</p>
                 <footer>Rajat Rawat </br> Front End Developer</footer>
+                <br>
+                <a href="https://github.com/Rajatrawataku1/ " target="_blank"><span class="fa fa-github fa-2x"></span></a>&nbsp&nbsp|&nbsp&nbsp
+                <a href="https://www.linkedin.com/in/rajat-rawat-1121bb127/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
               </blockquote>
             </div>
             <div class="carousel-item">
               <blockquote class="blockquote">
                 <img src="img/chaugs.png" height="80" width="80" alt="Avatar" class="img-circle">
-                <p class="h3">Designing for clients that don’t appreciate the value of design is like buying new tires for a rental car.</p>
+                <p class="h3">10 different modules on their own have 0 utility. By connecting them I give birth to something beautiful.</p>
                 <footer>Rohan Chougule </br> Backend Developer</footer>
+                <br>
+                <a href="https://github.com/rchougule" target="_blank"><span class="fa fa-github fa-2x"></span></a>&nbsp&nbsp|&nbsp&nbsp
+                <a href="https://www.linkedin.com/in/rohan-chougule-cse/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
               </blockquote>
+
             </div>
             <div class="carousel-item">
               <blockquote class="blockquote">
                 <img src="img/nawab.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                <p class="h3">Every picture owes more to other pictures painted before than it owes to nature.</p>
+                <p class="h3">Perfection is defined by personal satisfaction. Unless you have the passion for perfection you cannot deliver the best</p>
                 <footer>Shivam Singh</br>Blockchain Developer</footer>
+                <br>
+                <a href="https://github.com/Vella-Contributor" target="_blank"><span class="fa fa-github fa-2x"></span></a>&nbsp&nbsp|&nbsp&nbsp
+                <a href="https://www.linkedin.com/in/shivam-singh/" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
               </blockquote>
             </div>
           </div>
@@ -333,31 +499,35 @@
       </div>
     </section>
 
-    <!-- Text Content
-    ================================================== -->
-
-    <section class="section-text">
-      <div class="container">
-        <h3 class="text-xs-center">Prototyping Your Ideas</h3>
-          </div>
-    </section>
 
     <!-- News
     ================================================== -->
 
-    <section class="section-news">
+    <section class="section-news" >
+      <div class="container">
+      		<br class="hidden-sm-down">
+      		<br >
+      		<br id="Projects">
+      		<div class="row"  align="center">
+      			<h3 class="title iq-tw-5 iq-mb-20 h3">PROJECTS WE UNDERTOOK</h3>
+            <p><h2>Every project that we undertook has raised huge funding from the Invertors!</h2>
+            	<br>
+      		</div>
+
+      </div>
       <div class="container">
         <h3 class="sr-only">News</h3>
-        <div class="bg-inverse">
+        <div class="bg-inverse bg_color_drupple">
           <div class="row">
             <div class="col-md-6 p-r-0">
               <figure class="has-light-mask m-b-0 image-effect">
-                <img src="https://images.unsplash.com/photo-1442328166075-47fe7153c128?q=80&fm=jpg&w=1080&fit=max" alt="Article thumbnail" class="img-fluid">
+                <img src="img/sipcoin.png" alt="Article thumbnail" class="img-fluid">
               </figure>
             </div>
             <div class="col-md-6 p-l-0">
-              <article class="center-block">
-                <span class="label label-info">Token ICO</span>
+              <article class="center-block ">
+                <span class="label label-info">Token ICO</span> <span class="label label-info">Ethereum</span>
+                <span class="label label-info">Cryptocurrency</span>
                 <br>
                 <p><a href="#">Created a platform to conduct the ICO of SIP Coin along with creating the tokens and deploying it to the Ethereum Blockchain <span class="icon-arrow-right"></span></a></p>
                 <p class="m-b-0">
@@ -370,17 +540,17 @@
           <div class="row">
             <div class="col-md-6 col-md-push-6 p-l-0">
               <figure class="has-light-mask m-b-0 image-effect">
-                <img src="https://images.unsplash.com/photo-1434394673726-e8232a5903b4?q=80&fm=jpg&w=1080&fit=max" alt="Article thumbnail" class="img-fluid">
+                <img src="img/mahindra.png" alt="Article thumbnail" class="img-fluid">
               </figure>
             </div>
             <div class="col-md-6 col-md-pull-6 p-r-0">
               <article class="center-block">
-                <span class="label label-info">Featured article</span>
+                <span class="label label-info">Customer Profiling</span><span class="label label-info">Machine Learning</span>
                 <br>
-                <h5><a href="#">How bold, emotive imagery can connect with your audience <span class="icon-arrow-right"></span></a></h5>
+                <p><a href="#">Developed software for Mahindra & Mahindra to do customer profiling and analysis for better insights related to customers.<span class="icon-arrow-right"></span></a></p>
                 <p class="m-b-0">
-                  <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Design Studio</span></a>
-                  <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 1 Hour Ago</span></a>
+                  <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Web Development & ML</span></a>
+                  <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 2017</span></a>
                 </p>
               </article>
             </div>
@@ -392,43 +562,56 @@
     <!-- Sign Up
     ================================================== -->
 
-    <section class="section-signup bg-faded">
+    <section class="section-signup bg-faded" id="contact_drupple">
       <div class="container">
-        <h3 class="text-xs-center m-b-3">Sign up to receive free updates as soon as they hit!</h3>
-        <form>
+        <h3 class="text-xs-center m-b-3">Send us a message to start your journey with Drupple!</h3>
+        <p class="text-xs-center">Send us your queries NOW!</p>
           <div class="row">
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-4">
               <div class="form-group has-icon-left form-control-name">
                 <label class="sr-only" for="inputName">Your name</label>
-                <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
+                <input id='name_input' type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
               </div>
             </div>
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-4">
               <div class="form-group has-icon-left form-control-email">
                 <label class="sr-only" for="inputEmail">Email address</label>
-                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
+                <input id='email_input' type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
+              </div>
+            </div>
+             <div class="col-md-6 col-xl-4">
+              <div class="form-group has-icon-left form-control-phone">
+                <label class="sr-only" for="inputName">Contact Number</label>
+                <input id='mobile_input' type="tel" class="form-control form-control-lg" id="inputNumberx" placeholder="Contact Number">
               </div>
             </div>
             <div class="col-md-6 col-xl-6">
-              <div class="form-group has-icon-left form-control-password">
+              <div class="form-group has-icon-left form-control-msg">
                 <label class="sr-only" for="inputPassword">Enter your message</label>
-                <textarea name="comment"  type="text" class="form-control form-control-lg" id="inputPassword" placeholder="Enter your message" autocomplete="off" style="height: 200px"></textarea>
+                <textarea id='message_input' name="comment"  type="text" class="form-control form-control-lg" id="inputPassword" placeholder="Enter your message" autocomplete="off" style="height: 200px"></textarea>
               </div>
             </div>
-            <div class="col-md-6 col-xl-6">
+            <div class="col-md-6 col-xl-1">
+            </div>
+            <div class="col-md-6 col-xl-4">
+            	<br class="hidden-sm-down">
+            	<br class="hidden-sm-down">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Send Email</button>
+                <button id ="submit_button" style="height:65px;outline:none;" onclick="send_email()" class="btn btn-primary btn-block bg_color_drupple">Send Email &nbsp<span id="email_span" class="fa fa-magic"></span>
+                  <span><div class="loader-5 center" ><span></span></div></span>
+                </button>
               </div>
+            </div>
+            <div class="col-md-6 col-xl-1">
             </div>
           </div>
-        </form>
       </div>
     </section>
 
     <!-- Footer
     ================================================== -->
 
-    <footer class="section-footer bg-inverse" role="contentinfo">
+    <footer class="section-footer bg-inverse bg_color_drupple" role="contentinfo">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-5">
@@ -445,19 +628,20 @@
           <div class="col-md-6 col-lg-7">
             <ul class="nav nav-inline">
               <li class="nav-item">
-                <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="projects-footer"> Projects<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="ui-elements.html">UI Kit</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a></li>
-              <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link" id="team-footer">Team</a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link" href="" target="_blank">GitHub</a></li>
+              <li class="nav-item pointer_drupple"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
             </ul>
           </div>
-        </div>
+        </div
       </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/landio.min.js"></script>
+     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
     <script type="text/javascript">
       var app = document.getElementById('typewritting');
@@ -475,6 +659,14 @@
           .typeString('Investors!')
           .pauseFor(5000)
           .start();
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        document.title = "Drupple | Prototyping Your Ideas";
+      })
+
+
     </script>
 
     <script>
@@ -528,6 +720,46 @@
       }
       owlcarousel();
     });
+
+    </script>
+
+    <script>
+
+    function send_email(){
+      $('#submit_button').css('pointer-events','none');
+      $('#email_span').css('visibility','hidden');
+      $('.loader-5').css('display','block');
+      var input_contents={your_name_back:$('#name_input').val(),email_value_back:$('#email_input').val(),telephone_value_back:$('#mobile_input').val(),message_value_back:$('#message_input').val()};
+
+      $.ajax({
+
+        type: 'POST',
+
+        crossOrigin:true,
+
+        data: JSON.stringify(input_contents),
+
+        contentType: 'application/json',
+
+        url: 'http://localhost:3000/endpoint',
+
+        success: function(result) {
+          $('.loader-5').css('display','none');
+          $('#email_span').css('visibility','visible');
+          $('#myModal').modal('show');
+          $('#submit_button').css('pointer-events','auto');
+          // remove values
+          $('#name_input').val('');
+          $('#email_input').val('');
+          $('#message_input').val('');
+          $('#mobile_input').val('');
+          $('.scroll-top').click();
+            console.log(result);
+        },error:function(err){
+            console.log(err);
+        }
+        });
+    }
 
     </script>
 

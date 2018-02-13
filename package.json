@@ -1,0 +1,32 @@
+{
+  "name": "drupple.github.io",
+  "version": "1.0.0",
+  "description": "Hi!<br/> We prototype your ideas so that you can focus on your idea and pitch more than the technology and development!<br/><br/> We build prototypes/proof of concepts which helps Investors understand the business more properly. Ideas with PoC's are more likely to get Investments and funding than just the presentation pitches! <br/> >Let Investors *experience*, your idea. Take the first step with the *best*. ## Area we Work * Web Technologies * Machine Learning & Analytics * Blockchain Technologies ## Contact Us Website : [www.Drupple.ml](www.drupple.ml)<br/> Mail : Drupple.technology@gmail.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drupple/Drupple.github.io.git"
+  },
+  "dependencies": {
+    "assert": "*",
+    "body-parser": "^1.17.2",
+    "cors": "*",
+    "express": "*",
+    "jsonfile": "^4.0.0",
+    "mongodb": "*",
+    "nexmo": "*",
+    "nodemailer": "^4.0.1",
+    "nodemailer-plugin-inline-base64": "^2.1.0",
+    "twilio": "*"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Drupple/Drupple.github.io/issues"
+  },
+  "homepage": "https://github.com/Drupple/Drupple.github.io#readme"
+}
